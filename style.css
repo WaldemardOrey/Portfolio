@@ -720,7 +720,11 @@ html {
     transition: all 0.3s ease;
   }
 
-
+@media screen and (max-width: 400px) {
+    .imagem-classe {
+        width: 150px;
+    }
+}
 
 /* Corrigir escrollamento no Mobile */
 @media (max-width: 900px){
@@ -731,8 +735,8 @@ html {
         display: block;
         margin: 10px auto; /* Centraliza a imagem */
         height: auto; /* Mantém a proporção da imagem */
-        max-height: 200px; /* Define uma altura máxima para evitar imagens enormes */
-        width: 150px; /* Permite que a imagem ajuste seu tamanho dinamicamente */
+        /* Define uma altura máxima para evitar imagens enormes */
+        max-width: 150px; /* Permite que a imagem ajuste seu tamanho dinamicamente */
             }
     .main{
   position: relative;
@@ -742,7 +746,7 @@ html {
     align-items: center;
     background-image: url(Image/bg.png);
     background-size: cover;
-    background-position: calc(50% - 100px) center;
+    background-position: calc(50% - 100px);
     background-repeat: no-repeat;
     background-attachment: scroll; /* Evita problemas em Android */
     overflow: hidden; /* Evita cortes inesperados */
