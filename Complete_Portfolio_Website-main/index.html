@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waldemar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <style>
+        /* CSS intégré */
+        .container-tp {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            margin: 40px 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .images-left {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            flex: 1;
+        }
+
+        .rounded-img {
+            width: 100%;
+            border-radius: 15px; /* Bord arrondi */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .text-right {
+            flex: 2;
+            line-height: 1.6;
+        }
+
+        .text-right h2 {
+            color: #bec3c8;
+            margin-bottom: 10px;
+        }
+        </style>
+</head>
+<body>
+
+
+    <header>
+        <a href="" class="brand" data-aos="zoom-in" data-aos-duration="1000">Waldemar</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+                <a href="#main" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
+            <a href="#about"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Qui suis je?</a>
+            <a href="#skills" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Travaux Pratiques</a>
+            <a href="#services" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">SAÉ</a>
+            <a href="#work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Expériences professionnelles</a>
+            <a href="#contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Contact</a>
+        </div>
+    </header>
+
+    <section class="main" id="main">
+        <div class="content">
+            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Salut, je suis <br><span>Waldemar D'OREY</span></h2>
+            <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+                <h3>Futur ingénieur</h3>
+                <h3>Actuellement étudiant</h3>
+                <h3>Recherche d'alternance</h3>
+            </div>
+            <a href="#skills" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">Découvrez mes projets academiques</a>
+            <div class="media-icons">
+                 <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1200"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1300"><i class="fab fa-instagram"></i></a>
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1400"><i class="fab fa-twitter"></i></a>
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1500"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+<!--  About Section -->
+
+    <section class="about" id="about">
+        <div class="title reveal">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Qui suis je?</h2>
+        </div>
+        <div class="content">
+            <div class="column col-left reveal">
+                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+                    <img src="Image/img1.png" alt="">
+                </div>
+            </div>
+            <div class="column col-right reveal">
+                <h2 class="content-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Salut!😊</h2>
+                <p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">Salut tout le monde, moi c’est Waldemar d’Orey, 19 ans et originaire d’Angola. Mon parcours scolaire a commencé au Lycée São José do Cluny, où j'effectué mon Baccalauréat général, où une base solide en sciences et en mathématiques a été acquise. En Angola, j’avais entamé des études en ingénierie pétrolière, mais une bourse d’études m’a permis de débarquer en France pour pousser mes connaissances encore plus loin. <br><br> J’ai d’abord suivi un cours intensif de français et j'ai pu renforcer des compétences mathématiques, physique et en chimie à l’Université du Mans (mars-juillet), puis, j’ai pris un virage vers le génie chimique et les procédés industriels à l’IUT de Saint-Nazaire. Mon but ? Devenir un ingénieur capable de repenser des procédés industriels tout en tenant compte de l’énergie et de l’environnement.
+
+                    <br><br>En dehors de mes études, je suis un passionné de sport, entre la natation, le badminton et les séances de gym. J’aime aussi la musique et la lecture, deux activités parfaites pour exercer ma patience et ma rigueur (et un peu mon côté artistique, disons-le).
+                   <br><br> Bref, je suis là pour apprendre, m’améliorer et relever de nouveaux défis dans mon domaine. Merci de m’avoir lu !</p>
+                <!-- <a href="#" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">See more</a> -->
+            </div>
+        </div>
+    </section>
+
+<!-- Skill Section -->
+
+    <section class="skills" id="skills">
+        <div class="title">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" id="tp">Travaux Pratiques</h2>
+        </div>
+        <div class="content">
+            <div class="column col-left">
+                <h2 class="content-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">TP Bases du génie des Procédés(S1):</h2>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                        <!-- Remplacez les src par vos images -->
+                        <img src="/Image/ebuliometre/1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="/Image/ebuliometre/2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Ebulliométrie</h2>
+                        <h3>Objectifs</h3>
+                        <p>
+                            Déterminer la chaleur latente de vaporisation de l'eau et étudier l'effet de la pression sur la température d'ébullition.
+                        </p>
+                    
+                        <h3>Manipulation</h3>
+                        <p><strong>1. Préparation :</strong> Remplir le ballon d'eau, tester l'étanchéité et ajuster la pression à 0,2 bar.</p>
+                        <p><strong>2. Chauffe :</strong> Chauffer l'eau à puissance maximale, puis ajuster lorsque l'ébullition approche.</p>
+                        <p><strong>3. Mesures :</strong> Relever la température et la pression à chaque palier de 0,1 bar entre 0,2 et 1 bar.</p>
+                        <p><strong>4. Refroidissement :</strong> Laisser l'eau refroidir après coupure de la chauffe.</p>
+                    
+                        <h3>Exploitation</h3>
+                        <p><strong>1. Graphiques :</strong> Tracer Ocb = f(p) et ln(p) = f(1/T), comparer avec les données théoriques.</p>
+                        <p><strong>2. Analyse :</strong> Calculer la chaleur latente et comparer avec les valeurs théoriques.</p>
+                        <p><strong>3. Conclusion :</strong> Analyser l'effet de la pression sur la température d'ébullition et la chaleur latente.</p>
+                    
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                        <!-- Remplacez les src par vos images -->
+                        <img src="/Image/Conduction/2.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="/Image/Conduction/1.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Conduction</h2>
+                        <h3>Objectifs</h3>
+                        <p>
+                            Étudier la conduction thermique dans une barre métallique (cuivre et aluminium) et déterminer la conductivité thermique.
+                        </p>
+                    
+                        <h3>Dispositif Expérimental</h3>
+                        <p>
+                            L'installation comprenait 4 cylindres (2 en cuivre, 2 en aluminium) de 84 cm de long et 4 cm de diamètre, chauffés à une extrémité et refroidis à l'autre. Des thermocouples ont mesuré la température à intervalles réguliers.
+                        </p>
+                        
+                        <h3>Mise en Route</h3>
+                        <p>
+                            Le dispositif a été mis en route sous la supervision de l'enseignant. La température de l'extrémité chauffée a été imposée à 60°C.
+                        </p>
+                        
+                        <h3>Mesures</h3>
+                        <p>
+                            Les températures ont été relevées toutes les 3 minutes pendant 1 heure. Les profils de température ont été tracés à différents moments (6 min, 21 min, 42 min, 60 min).
+                        </p>
+                    
+                        <h3>Traitement des Résultats</h3>
+                        <p>
+                            L'établissement du régime permanent a été suivi et le temps nécessaire pour sa stabilisation a été déterminé. La conductivité thermique a été calculée en utilisant la formule : <br>
+                            <strong>λ = Φ * Δx / (S * ΔT)</strong>
+                        </p>
+                    
+                        <h3>Conclusion</h3>
+                        <p>
+                            La variation de température a été analysée et la conductivité thermique des matériaux étudiés a été déduite.
+                        </p>
+                    
+                        <h3>Important</h3>
+                        <p>
+                            L'expérience a été réalisée sous la supervision de l'enseignant. L'installation a été arrêtée à la fin de l'expérience.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                        <!-- Remplacez les src par vos images -->
+                        <img src="/Image/Debits/1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="/Image/Debits/2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Mesure de débits</h2>
+                        <h3>Objectifs</h3>
+    <p>
+        Étudier la mesure du débit volumétrique et de la pression différentielle dans un circuit fermé, à l'aide de différents débitmètres.
+    </p>
+
+    <h3>Dispositif Expérimental</h3>
+    <p>
+        L'installation comprend : un bac d'alimentation (400 L), une pompe centrifuge, un bac intermédiaire (200 L), un tube de Venturi (D = 42 mm, d = 26 mm), et un diaphragme (D = 42 mm, orifice d = 26 mm). La pression différentielle est mesurée entre l'entrée et la sortie du tube de Venturi et du diaphragme.
+    </p>
+
+    <h3>Procédure</h3>
+    <p>
+        1. Mettre en marche la pompe pour faire circuler l'eau dans le circuit fermé. <br>
+        2. Mesurer le débit pour 5 valeurs différentes en utilisant un débitmètre électromagnétique et un rotamètre à tube. <br>
+        3. Effectuer les relevés de débit et de pression et les consigner dans un tableau préparé. <br>
+        4. Arrêter l'installation en présence de l'enseignant.
+    </p>
+
+    <h3>Résultats</h3>
+    <p>
+        Les différences de pression (ΔP) ont été mesurées pour chaque valeur de débit, et les résultats ont été enregistrés dans un tableau pour chaque débit volumétrique moyen (Qm) obtenu.
+    </p>
+
+    <h3>Conclusion</h3>
+    <p>
+        L’expérience a permis de bien comprendre l'effet Venturi et le fonctionnement des débitmètres. Les mesures ont montré une corrélation entre la différence de pression et le débit mesuré.
+    </p>
+
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                        <!-- Remplacez les src par vos images -->
+                        <img src="/Image/gaz/1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="/Image/gaz/2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Loi des gaz</h2>
+                        <h3>Objectifs</h3>
+    <p>
+        Vérifier les trois lois qui définissent la notion de gaz parfait : 
+        <ul>
+            <li>La relation de Charles</li>
+            <li>La loi de Gay-Lussac</li>
+            <li>La loi de Boyle-Mariotte</li>
+        </ul>
+    </p>
+
+    <h3>Matériel utilisé</h3>
+    <p>
+        - Interface UI-5000<br>
+        - Capteurs de température et de pression<br>
+        - Cylindre à piston<br>
+        - Bouilloire pour chauffer l'eau<br>
+        - Bac en plastique<br>
+        - Capteurs et programme d'acquisition de données
+    </p>
+
+    <h3>Procédure</h3>
+    <h4>1. Relation de Charles</h4>
+    <p>
+        <strong>Objectif :</strong> Vérifier la relation entre le volume et la température d'un gaz à pression constante.
+    </p>
+    <p>
+        <strong>Étapes :</strong>
+        <ol>
+            <li>Faire chauffer de l'eau à environ <strong>80°C</strong> dans la bouilloire.</li>
+            <li>Allumer l'ordinateur et l'interface d’acquisition. Ouvrir le programme d’acquisition pour enregistrer les données de température.</li>
+            <li>Placer environ 1 litre d'eau à température ambiante dans un bac en plastique. Relever la température initiale et la position du piston.</li>
+            <li>Ajouter progressivement de l'eau chaude pour augmenter la température d'environ <strong>3 à 4°C</strong>. Maintenir la chambre en aluminium en position verticale et attendre la stabilisation avant de relever la température et la position du piston.</li>
+            <li>Répéter cette opération pour obtenir <strong>dix points de mesure</strong> de température et de volume.</li>
+            <li>Compléter le tableau de collecte des données, en calculant le volume associé à chaque température.</li>
+        </ol>
+    </p>
+
+    <h4>2. Loi de Gay-Lussac</h4>
+    <p>
+        <strong>Objectif :</strong> Vérifier la relation entre la pression et la température d'un gaz à volume constant.
+    </p>
+    <p>
+        <strong>Étapes :</strong>
+        <ol>
+            <li>Fermer la vanne rouge pour isoler le cylindre piston.</li>
+            <li>Lancer l’acquisition des données (pression et température) via l'interface.</li>
+            <li>Faire chauffer l'eau à environ <strong>80°C</strong> pour augmenter la température dans le cylindre.</li>
+            <li>Relever les données de pression et température après chaque changement de température dans le cylindre.</li>
+        </ol>
+    </p>
+
+    <h4>3. Loi de Boyle-Mariotte</h4>
+    <p>
+        <strong>Objectif :</strong> Vérifier la relation entre la pression et le volume d'un gaz à température constante.
+    </p>
+    <p>
+        <strong>Étapes :</strong>
+        <ol>
+            <li>Maintenir une température constante (via l'eau chaude) et varier le volume du gaz.</li>
+            <li>Mesurer la pression et le volume à chaque étape.</li>
+            <li>Compléter le tableau et analyser la relation inverse entre pression et volume pour valider la loi de Boyle-Mariotte.</li>
+        </ol>
+    </p>
+
+    <h3>Conclusion</h3>
+    <p>
+        L'expérience a permis de valider les trois lois fondamentales des gaz parfaits en mesurant les différentes relations entre température, pression et volume.
+    </p>
+
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                        <!-- Remplacez les src par vos images -->
+                        <img src="/Image/echangeurs/1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="/Image/echangeurs/2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Echangeurs</h2>
+                        <h3>Objectifs</h3>
+    <p>
+        Le but de cette étude est de mieux comprendre les principes fondamentaux du transfert de chaleur dans des systèmes industriels. Ces systèmes sont utilisés pour échanger de la chaleur entre deux fluides, et l'objectif est d'analyser les différents types d'échangeurs de chaleur, les mécanismes de transfert thermique, et d'étudier l'effet des paramètres influençant les performances des échangeurs.
+    </p>
+
+    <h3>Protocole de Mise en Route de l'Installation</h3>
+    <p>
+        1. Allumer la pompe et mettre en route les capteurs de chaleur.<br>
+        2. S'assurer que les vannes sont ouvertes ou fermées selon la configuration choisie.<br>
+        <strong>Cas numéro 1 : Co-courant</strong><br>
+        Les fluides circulent dans le même sens. Ouvrir les vannes <strong>v1, v4, v5, v8, et v9</strong>.<br>
+        <strong>Cas numéro 2 : Contre-courant</strong><br>
+        Les fluides circulent dans des directions opposées. Ouvrir les vannes <strong>v1, v4, v5, v7, et v10</strong>.<br>
+        3. Régler le débit d'arrivée de l'eau froide et chaude.<br>
+        4. Vérifier que l'évacuation se fait bien dans les égouts.
+    </p>
+
+    <h3>Procédure pour Arrêter l'Installation</h3>
+    <p>
+        1. Fermer le robinet.<br>
+        2. Éteindre la pompe.<br>
+        3. Éteindre les capteurs.
+    </p>
+
+    <h3>Interprétation des Profils de Température</h3>
+    <p>
+        Les profils de température sont des outils précieux pour analyser les performances thermiques de l'échangeur de chaleur et pour choisir la configuration optimale selon les besoins spécifiques. Ils permettent de visualiser clairement la différence entre les configurations co-courant et contre-courant.
+    </p>
+    <p>
+        <strong>Observation :</strong> Le contre-courant est plus efficace, car il permet de maintenir une différence de température plus uniforme entre les deux fluides tout au long de l’échangeur. Cela se reflète dans des courbes de température presque parallèles.
+    </p>
+
+    <h3>Impact des Débits et de l'Écoulement sur l'Échange Thermique</h3>
+    <p>
+        <strong>Débit élevé (16/16) :</strong> Un débit plus élevé améliore le transfert thermique en permettant une meilleure convection et en prolongeant le temps d'échange thermique.<br>
+        <strong>Débit réduit (16/8) :</strong> Un débit réduit entraîne une moins bonne efficacité thermique, car le fluide reste moins longtemps dans l’échangeur, réduisant ainsi la capacité d'échange thermique.<br>
+        <strong>Contre-courant :</strong> Cette configuration offre une meilleure performance thermique, car la différence de température entre les fluides est maximisée sur toute la longueur de l’échangeur.<br>
+        <strong>Co-courant :</strong> Cette configuration présente des performances thermiques moins bonnes, car la différence de température se réduit rapidement, limitant ainsi l'efficacité du transfert thermique.
+    </p>
+
+    <h3>Effet de la Longueur de l’Échangeur</h3>
+    <p>
+        L’échangeur a une longueur de 4,725 m avec une répartition équitable des thermocouples, ce qui permet de capturer l’évolution précise des températures. On observe qu’une plus grande longueur d’échangeur permet un meilleur transfert thermique, avec des courbes de température plus douces, car il y a plus de surface d’échange. Cet effet est particulièrement efficace en configuration contre-courant.
+    </p>
+
+    <h3>Conclusion</h3>
+    <p>
+        Cette étude a permis de comprendre les différentes configurations d’échangeurs de chaleur et d'analyser les paramètres influençant leur performance. En particulier, l’étude a confirmé que la configuration contre-courant est la plus efficace pour maximiser le transfert thermique. Le débit, la configuration des fluides, ainsi que la longueur de l’échangeur jouent des rôles cruciaux dans l’efficacité globale du transfert thermique.</p>
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                        <!-- Remplacez les src par vos images -->
+                        <img src="/Image/pertes/1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="/Image/pertes/2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Perte de charges</h2>
+                        <p>Lors du TP, nous avons analysé les <strong>pertes de charge</strong> sous leurs deux formes :</p>
+                        <ul>
+                            <li><strong>Pertes de charge régulières :</strong> causées par le frottement du fluide dans les canalisations.</li>
+                            <li><strong>Pertes de charge singulières :</strong> dues aux obstacles et changements de direction (Venturi, diaphragme).</li>
+                        </ul>
+                        
+                        <h3>Influence des Canalisations</h3>
+                        <p>Nous avons étudié l'effet de la <strong>rugosité</strong> des canalisations en comparant des tubes <em>lisses</em> et <em>rugueux</em>. La rugosité a un impact direct sur la résistance au passage du fluide.</p>
+                        
+                        <h3>Méthodologie</h3>
+                        <p>Pour mesurer les <strong>différences de pression</strong>, nous avons utilisé des <strong>picages</strong> aux points <em>amont</em> et <em>aval</em> des dispositifs. Nous avons également réglé les <strong>débits</strong> afin d'observer leur influence sur les pertes de charge.</p>
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                        <!-- Remplacez les src par vos images -->
+                        <img src="/Image/frigo/1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="/Image/frigo/2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Machine frigo</h2>
+                        <h3>I. Le Cycle Frigorifique</h3>
+    <p>Le fluide frigorigène utilisé dans l’installation est le R-134a (1,1,1,2-tétrafluoroéthane, C₂H₂F₄). Son rôle est de permettre l’échange thermique nécessaire au refroidissement. En sortie de l'évaporateur, il est sous forme gazeuse avant d’être comprimé par le compresseur, augmentant ainsi sa pression et sa température. Ce gaz chaud passe ensuite dans le condenseur, où un circuit d’eau froide permet sa liquéfaction par échange thermique. Le fluide, redevenu liquide, est ensuite détendu dans un détendeur, ce qui réduit sa pression et température avant son retour dans l’évaporateur pour absorber la chaleur de l’environnement et recommencer un nouveau cycle.</p>
+
+    <h3>II. Protocole</h3>
+    <p>Avant la mise en route, on s'assure que la vanne de sortie du condenseur est ouverte, puis on active l’alimentation en eau et en vapeur. Après avoir allumé l’installation et les différents équipements (compresseur, évaporateur), les paramètres sont ajustés via les contrôleurs (tension, intensité, débit). Des relevés sont effectués tout au long du cycle. Pour l’arrêt, on éteint les composants dans l’ordre inverse et on coupe les alimentations.</p>
+
+    <h3>Nature du Fluide Utilisé</h3>
+    <p>Le R134a est un fluide pur, stable thermodynamiquement, incolore, légèrement éthéré, avec une température critique de +101,1°C et une pression critique de 40,67 bar. Il est utilisé dans la réfrigération domestique, industrielle, automobile et médicale. Son PRG de 1430 kg eq.CO₂ est élevé, d’où une réglementation visant à limiter son utilisation.</p>
+
+    <h3>Analyse des Paramètres</h3>
+    <p>Les paramètres mesurés incluent la température à différentes étapes du cycle (entrée/sortie compresseur, condenseur, détendeur, évaporateur), les pressions absolues, ainsi que les valeurs électriques (tension, intensité, vitesse du compresseur). Les conditions opératoires varient en fonction des réglages (puissance de chauffe, débit d’eau) et influencent directement la stabilité thermique du système.</p>
+
+    <p>On note que la température augmente à la compression et diminue lors de la condensation, où le fluide cède sa chaleur au circuit d’eau. La pression reste stable tant que l’équilibre entre la chaleur transférée et la puissance fournie est maintenu. Une augmentation du débit d’eau accélère la condensation, tandis qu’une augmentation de la puissance de chauffe accroît la température et la pression dans le condenseur. Les variations du débit de R134a influencent directement les pressions observées.</p>
+
+    <h3>Conclusion</h3>
+    <p>Le cycle frigorifique fonctionne sur des équilibres thermodynamiques précis. L’augmentation de la puissance entraîne une élévation des températures et pressions. Le débit d’eau joue un rôle crucial dans l’efficacité du refroidissement. L’analyse des relevés permet d’optimiser les performances du système et de mieux comprendre les interactions entre les différents paramètres.</p>
+
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                        <!-- Remplacez les src par vos images -->
+                        <img src="/Image/pompe/1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="/Image/pompe/2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Pompe centrifuge</h2>
+                        <h3>Introduction à la pompe centrifuge</h3>
+                        <p>Le banc de mesure de la pompe centrifuge permet de déterminer la pression différentielle entre le circuit d'aspiration et de refoulement lorsqu'une pompe est en fonctionnement dans un circuit fermé. Lors des essais, la pompe centrifuge est mise en marche avec une vitesse de rotation de 2400 TPM, et pour chaque débit mesuré, on relève la pression différentielle affichée de part et d'autre du diaphragme et la pression entre les points d'aspiration et de refoulement de la pompe. </p>
+                        
+                        <h3>Mesure du débit et pression différentielle</h3>
+                        <p>Les débits sont mesurés à l'aide de diaphragmes normalisés avec des zones d'utilisation spécifiques et des équations d'étalonnage permettant de calculer le débit en fonction de la pression différentielle. Les résultats obtenus sont récapitulés dans un tableau avec les valeurs de pression différentielle et de débit, et une courbe de la pression différentielle en fonction du débit est tracée et commentée.</p>
+                        
+                        <h3>Conclusion et analyse des performances</h3>
+                        <p>Cette expérience permet d’analyser les performances de la pompe centrifuge en fonction des variations de débit et de pression. Elle aide à comprendre comment la pression différentielle et le débit évoluent selon les conditions expérimentales et à optimiser l'utilisation de la pompe centrifuge dans des applications pratiques.</p>
+                    </div>
+                </section>
+
+                <h2 class="content-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">TP Génie des Procédés 1 (S2):</h2>
+<!-- 
+            <section class="container-tp">
+                    <div class="images-left">
+          
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+                      
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+             
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+                    
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+           
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+               
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+                    
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                  
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+                      
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                 
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+                
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                 
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+                  
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                    
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+                 
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                     
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+                
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                      
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+              
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                       
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+               
+                    </div>
+                </section>
+
+                <section class="container-tp">
+                    <div class="images-left">
+                     
+                        <img src="image1.jpg" alt="Exemple 1" class="rounded-img">
+                        <img src="image2.jpg" alt="Exemple 2" class="rounded-img">
+                    </div>
+                    
+                    <div class="text-right">
+                        <h2>Travail Pratique</h2>
+                   
+                    </div>
+                </section>
+
+-->
+                <!-- <div class="paragraph-text" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <a href="#" class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="400">See more</a> -->
+            </div>
+            <!-- <div class="column col-right">
+                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+                    <img src="Image/img1.png" alt="">
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="100">
+                        <span>HTML</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="line html" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="140"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span>CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line css" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="240"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300">
+                        <span>Javascript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line javascript" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="340"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">
+                        <span>Python</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="line python" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="440"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+                        <span>PHP</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="line php" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="540"></div>
+                </div> 
+
+
+
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section class="services" id="services">
+        <div class="title">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">SAÉ</h2>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">La situation d'apprentissage et d'évaluation (SAE), c'est un peu comme un défi pratique où on met en application ce qu'on a appris en théorie. Dans ce cadre, on doit résoudre des problèmes ou réaliser des expériences concrètes, et en même temps, on est évalué sur notre façon de les aborder.  (<b><i>Cliquez sur les icônes pour voir les rapports des SAEs</i></b>)</p>
+        </div>
+        <div class="content">
+            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                <div class="service-icon">
+                  <a target="_blank" href="https://drive.google.com/file/d/1tvOQUm-VJMBbKHgiVaJIQy0epg0Xcm1n/view?usp=sharing"><i class="fas fa-palette"></i></a>  
+                </div>
+                <div class="info">
+                    <h3>SAÉ 1.1</h3>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                <div class="service-icon">
+                    <a target="_blank" href="https://drive.google.com/file/d/1nkB1sEJOl1YkphVEi4EV_O-P3mkcRRLU/view?usp=sharing"><i class="fas fa-palette"></i></a>  
+                </div>
+                <div class="info">
+                    <h3>SAÉ 1.2</h3>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                <div class="service-icon">
+                    <a target="_blank" href="https://drive.google.com/file/d/17h6ntVaL6lM-T-UawpSokw5F33O-ZAvt/view?usp=sharing"><i class="fas fa-palette"></i></a>  
+                </div>
+                <div class="info">
+                    <h3>SAÉ 1.3</h3>
+                </div>
+            </div>
+            <!-- <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class="fas fa-object-group"></i>
+                </div>
+                <div class="info">
+                    <h3>Motion Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class="fas fa-file-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+<!-- Work Section -->
+    <section class="work" id="work">
+        <div class="title">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Expériences professionnelles (rien encore)</h2>
+        </div>
+        <div class="content">
+            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <div class="card-img">
+                    <img src="Image/work1.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="card-img">
+                    <img src="Image/work2.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="card-img">
+                    <img src="Image/work3.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                <div class="card-img">
+                    <img src="Image/work4.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <div class="card-img">
+                    <img src="Image/work5.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <div class="card-img">
+                    <img src="Image/work6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title reveal">
+          <h2 class="section-title">Contact Moi</h2>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info">
+                <h3>Addresse</h3>
+                <a target="_blank" href="https://www.google.com/maps/place/60+Rue+Michel+Ange,+44600+Saint-Nazaire/@47.262114,-2.2692168,17z/data=!3m1!4b1!4m6!3m5!1s0x4805689a5308343b:0x1c390990cdcc1828!8m2!3d47.262114!4d-2.2666419!16s%2Fg%2F11nns9xfqn?hl=fr&entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D"><span>60 RUE MICHEL ANGE,
+                    Saint-Nazaire,44600,
+                    France</span></a>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info">
+                <h3>Appele moi</h3>
+                <span>+33 633-894-725</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h3>Adresse e-mail</h3>
+                <a href="mailto:waldemar.d-orey@etu.univ-nantes.fr?subject=Je%20viens%20de%20votre%20site&body=Salut%2C%20je%20suis%20interess%C3%A9" target="_blank" rel="noopener noreferrer"><span>waldemar.d-orey@etu.univ-nantes.fr</span></a>
+              </div>
+            </div>
+            <!-- <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="info">
+                <h3>Website</h3>
+                <span>mywebsite.com</span>
+              </div> 
+            </div> -->
+          </div>
+          <div class="row">
+            <!-- <div class="contact-form reveal">
+              <h3>Send Message</h3>
+              <div class="input-box">
+                <input type="text" name="" value="" placeholder="Name">
+              </div>
+              <div class="input-box">
+                <input type="text" name="" value="" placeholder="Email">
+              </div>
+              <div class="input-box">
+                <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
+              </div>
+              <div class="input-box">
+                <input type="submit" class="send-btn" name="" value="Send">
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <footer class="footer">
+        <span class="footer-title">Waldemar d'Orey</span>
+        <p>Copyright @2025. All Rights Reserved.</p>
+      </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script>
+
+        window.addEventListener("scroll", function(){
+    scrollBtn.classList.toggle("active", window.scrollY > 500);
+});
+
+//javascript for scroll back to top on click scroll-to-top button
+
+// document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// });
+
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        const navigationItems = document.querySelector(".navigation a");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        })
+
+        // Navigation Effects
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        navigationItems.forEach((navigationItem) => {
+            navigationItem.addEventListener("click", () => {
+                menuBtn.classList.remove("active");
+                navigation.classList.remove("active")
+            })
+        })
+
+
+
+    </script>
+</body>
+</html>
