@@ -723,7 +723,7 @@ html {
 
 
 /* Corrigir escrollamento no Mobile */
-@media (max-width: 786px){
+@media (max-width: 900px){
     body, html {
     overflow-x: hidden!important;
     }
@@ -733,5 +733,21 @@ html {
         max-height: 200px; /* Define uma altura máxima para evitar imagens enormes */
         width: auto; /* Permite que a imagem ajuste seu tamanho dinamicamente */
             }
+    .main{
+  position: relative;
+    width: 100%;
+    min-height: 100vh; /* Garante que o fundo cubra toda a tela */
+    display: flex;
+    align-items: center;
+    background-image: url(Image/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* Evita problemas em Android */
+    overflow: hidden; /* Evita cortes inesperados */
+    -webkit-background-size: cover; /* Suporte para navegadores WebKit */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
     }
 
