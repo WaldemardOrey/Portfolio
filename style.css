@@ -727,11 +727,12 @@ html {
     body, html {
     overflow-x: hidden!important;
     }
-    .container-tp img{        display: block;
+    .container-tp img{       
+        display: block;
         margin: 10px auto; /* Centraliza a imagem */
         height: auto; /* Mantém a proporção da imagem */
         max-height: 200px; /* Define uma altura máxima para evitar imagens enormes */
-        width: auto; /* Permite que a imagem ajuste seu tamanho dinamicamente */
+        width: 150px; /* Permite que a imagem ajuste seu tamanho dinamicamente */
             }
     .main{
   position: relative;
