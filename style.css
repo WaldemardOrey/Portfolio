@@ -754,5 +754,11 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+
+     .container-tp{
+
+         max-width: 150px;
+     }
     }
 
