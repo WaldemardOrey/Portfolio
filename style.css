@@ -741,7 +741,7 @@ html {
     align-items: center;
     background-image: url(Image/bg.png);
     background-size: cover;
-    background-position: center;
+    background-position: calc(50% - 100px) center;
     background-repeat: no-repeat;
     background-attachment: scroll; /* Evita problemas em Android */
     overflow: hidden; /* Evita cortes inesperados */
