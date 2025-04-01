@@ -752,5 +752,8 @@ html {
      .container-tp{
                   width: 100%;
      }
+    .container-tp img{
+                  width: 150px;
+     }
     }
 
