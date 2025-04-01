@@ -731,13 +731,6 @@ html {
     body, html {
     overflow-x: hidden!important;
     }
-    .container-tp img{       
-        display: block;
-        margin: 10px auto; /* Centraliza a imagem */
-        height: auto; /* Mantém a proporção da imagem */
-        /* Define uma altura máxima para evitar imagens enormes */
-        max-width: 150px; /* Permite que a imagem ajuste seu tamanho dinamicamente */
-            }
     .main{
   position: relative;
     width: 100%;
